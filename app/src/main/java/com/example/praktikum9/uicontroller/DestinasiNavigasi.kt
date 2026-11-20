@@ -1,13 +1,6 @@
 package com.example.praktikum9.uicontroller
 
-interface DestinasiNavigasi {
-    /**
-     * Nama unik untuk menentukan jalur untuk composable
-     */
-    val route: String
+import com.example.praktikum9.view.route.DestinasiNavigasi
 
-    /**
-     * String resource id yang berisi judul yang akan ditampilkan di layar halaman.
-     */
-    val titleRes: Int
-}
+// Catatan: Interface DestinasiNavigasi dan implementasinya telah dipindahkan ke package com.example.praktikum9.view.route sesuai struktur proyek terbaru.
+typealias DestinasiNavigasi = DestinasiNavigasi
