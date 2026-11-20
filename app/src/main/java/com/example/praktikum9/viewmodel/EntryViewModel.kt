@@ -4,6 +4,8 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
+import androidx.room.Delete
+import androidx.room.Update
 import com.example.praktikum9.repositori.RepositoriSiswa
 import com.example.praktikum9.room.Siswa
 
@@ -69,4 +71,5 @@ fun Siswa.toDetailsSiswa(): DetailsSiswa = DetailsSiswa(
     nama = nama,
     alamat = alamat,
     telpon = telpon,
+
 )
